@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{65611643-e093-477e-9615-be55999dd047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{44e7785e-28f1-4178-a5f6-0e2b7cc20671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{91ad48b5-12f3-43ed-8778-dc61985ad8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\math">
+      <UniqueIdentifier>{04dd056d-b259-4715-ad72-a72f0c47fd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{71029fb1-28de-4d7d-83d1-34db01b613d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\classes">
+      <UniqueIdentifier>{49e95a11-301a-4dd5-a844-5d4e6f771bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\classes">
+      <UniqueIdentifier>{440e3a74-4035-42eb-af4a-8a68bddc5153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hooks">
+      <UniqueIdentifier>{e80ee221-5c17-46f4-8644-6d621501672f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\features">
+      <UniqueIdentifier>{d3e92f61-2001-4ffd-8564-729f905cc629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{c844db72-2442-4c32-9c04-d691dc29bd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{3e8b3006-ce09-4396-bbd0-c1c1066a6572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{48416a6d-c6bf-45cf-9bc4-1cd30e7af0c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="address.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Source Files\sdk\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="convars.cpp">
+      <Filter>Source Files\sdk\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="tabs.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="colourpicker.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="dropdown.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="multidropdown.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="wndproc.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="winternals.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix3x4.h">
+      <Filter>Header Files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="convars.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entitylist.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="engineclient.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="netchannelinfo.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclient.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="debugoverlay.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="vgui.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="consoledisplay.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Header Files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="tabs.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="colourpicker.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="dropdown.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="multidropdown.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
